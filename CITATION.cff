@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "The LLM Inflection: Fingerprint-Vocabulary Diffusion, Stylistic Homogenization, and Citation Outcomes in 120840 Scientific Abstracts (2015-2026)"
+authors:
+  - name: "F. Zhang (GitHub: kevindurant735rocket-creator)"
+date-released: 2026-09-12
+license: "CC-BY-4.0"
+repository-code: "https://kevindurant735rocket-creator.github.io/llm-inflection"
+abstract: "Event-study evidence (2015-2026, 19 fields, 120,840 abstracts) that LLM adoption produced a structural break in fingerprint vocabulary across all domains, while within-field homogenization remains a gradual pre-existing trend with no post-2023 discontinuity once cell-size confounding is controlled; fingerprint density predicts citations up to a turnover near 2.5 hits per 1,000 tokens and degrades readability post-2023."
+keywords: [LLM, scientific writing, text analysis, reproducibility, event study]

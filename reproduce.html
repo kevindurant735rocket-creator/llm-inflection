@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reproduce · 复现验证</title><meta name="description" content="LLM Inflection — 基于 12 万篇科学摘要的可复现实证研究。A reproducible study of how LLM writing tools changed the language of science.">
+<link rel="stylesheet" href="style.css"><link rel="canonical" href="https://kevindurant735rocket-creator.github.io/llm-inflection/reproduce"></head>
+<body><header class="top"><div class="wrap"><span class="brand">LLM Inflection</span><nav><a href="index.html">首页/Home</a><a href="paper.html">论文/Paper</a><a href="figures.html">图表/Figures</a><a href="insights.html">洞见/Insights</a><a href="dashboard.html">仪表盘/Dashboard</a><a href="reproduce.html" style="font-weight:700;text-decoration:underline">复现/Reproduce</a></nav>
+<button class="langbtn" id="langbtn">中文 | EN</button></div></header><main class="wrap">
+
+<h1 data-en>Reproduce &amp; verify</h1><h1 data-zh>复现与验证协议</h1>
+<h2 data-en>A · Re-verify this package on your machine (&lt;10 seconds, no repo needed)</h2><h2 data-zh>A · 在你机器上复验本包（&lt;10 秒，无需仓库）</h2>
+<pre>cd 官网-双击打开
+bash verify/run.sh          # 8 gates, bundle-scoped, all must print PASS</pre>
+<p data-en>The gates read only files inside this folder: corpus facts 3-way cross-checked (data ↔ dashboard ↔ paper anchors), lexicon definitions re-checked term-by-term, direction assertions (flat pre / positive post / CIs finite), sha256 manifest over all 22 shipped files, 31 citations vs the TOFU liveness cache, dashboard payload recomputed against results. Blank or delete anything → the gates go red.</p>
+<p data-zh>八道门只读本文件夹内文件：语料事实三源交叉（数据↔仪表盘↔论文锚点）、词表逐核心词定义复核、方向断言（前期平/后期正/置信区间有限）、22 个发货文件全量 sha256 清单、31 条引用对活性缓存、仪表盘 payload 对 results 独立重算。任何文件被改动或移除 → 对应门必红。</p>
+<h2 data-en>B · Full pipeline rebuild (needs the repo, ~13 min)</h2><h2 data-zh>B · 完整流水线重建（需仓库，约 13 分钟）</h2>
+<pre>bash run_all.sh --full   # download → prep → features → similarity → stats(boot=1000) → figures → payload → papers → bundle</pre>
+<p data-en>Fully seeded; every number in this release is machine-injected from `results.json` (11 `&lt;!--K:--&gt;` anchors, triangulated). The independent review chain (3 QA rounds, ship-loop 4 clean rounds, incident log) lives in the repo under `work/`.</p>
+<p data-zh>全链路固定种子；本发布每个数字都从 results.json 机器注入（11 个 K 锚三方互检）。独立评审链（QA 三轮、发布循环四轮全绿、事故记录）在仓库 work/ 下。</p>
+<h2 data-en>C · What's in bundle/data/</h2><h2 data-zh>C · bundle/data/ 里有什么</h2>
+<table><tr><th data-en>file</th><th data-zh>文件</th><th data-en>content</th><th data-zh>内容</th></tr>
+<tr><td>results.json</td><td data-zh>结果</td><td data-en>all regression outputs, boot=1000</td><td data-zh>全部回归输出（自助 1000 次）</td></tr>
+<tr><td>similarity.csv</td><td data-zh>相似度</td><td data-en>field×domain×year grid incl. fixed-n=300 columns</td><td data-zh>领域×学部×年份网格，含固定 n=300 对照列</td></tr>
+<tr><td>lexicon.json</td><td data-zh>词表</td><td data-en>740 terms with per-term lift/defs</td><td data-zh>740 词逐词提升度与定义</td></tr>
+<tr><td>ref_liveness.json</td><td data-zh>引用活性</td><td data-en>Crossref-verified URLs (TOFU cache)</td><td data-zh>Crossref 验真 URL（首检即信缓存）</td></tr>
+</table>
+</main><footer class="wrap"><p data-en>The LLM Inflection · F. Zhang (GitHub: kevindurant735rocket-creator) · preprint · code MIT / text &amp; aggregates CC BY 4.0</p>
+<p data-zh>LLM 拐点 · F. Zhang（GitHub: kevindurant735rocket-creator）· 预印本 · 代码 MIT / 文本与聚合数据 CC BY 4.0</p></footer><script>const b=document.body;if(localStorage.getItem('lang')==='zh')b.classList.add('zh');
+function sw(){const zh=b.classList.toggle('zh');localStorage.setItem('lang',zh?'zh':'en');
+document.getElementById('langbtn').textContent=zh?'EN | 中文':'中文 | EN'}
+document.getElementById('langbtn').onclick=sw;
+if(b.classList.contains('zh'))document.getElementById('langbtn').textContent='EN | 中文';</script></body></html>

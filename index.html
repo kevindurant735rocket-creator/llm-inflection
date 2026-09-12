@@ -1,0 +1,45 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The LLM Inflection · LLM 改写科学语言测量</title><meta name="description" content="LLM Inflection — 基于 12 万篇科学摘要的可复现实证研究。A reproducible study of how LLM writing tools changed the language of science.">
+<link rel="stylesheet" href="style.css"><link rel="canonical" href="https://kevindurant735rocket-creator.github.io/llm-inflection/index"></head>
+<body><header class="top"><div class="wrap"><span class="brand">LLM Inflection</span><nav><a href="index.html" style="font-weight:700;text-decoration:underline">首页/Home</a><a href="paper.html">论文/Paper</a><a href="figures.html">图表/Figures</a><a href="insights.html">洞见/Insights</a><a href="dashboard.html">仪表盘/Dashboard</a><a href="reproduce.html">复现/Reproduce</a></nav>
+<button class="langbtn" id="langbtn">中文 | EN</button></div></header><main class="wrap">
+
+<div data-en>
+<h1>AI rewrote the <em>vocabulary</em> of science. It did <em>not</em> make science sound the same.</h1>
+<p class="lead">The LLM Inflection — a reproducible measurement of <b>120,840 scientific abstracts</b>, 19 fields, 2015–2026: where an adoption shock is visible, where it isn't, and what it does to citations and readability.</p>
+</div>
+<div data-zh>
+<h1>AI 改写了科学的<em>用词</em>，但没有让科学<em>腔调趋同</em>。</h1>
+<p class="lead">LLM 拐点 —— 基于 <b>120,840 篇科学摘要</b>（19 领域 × 2015–2026）的可复现实证：采纳冲击在哪里可见、在哪里不可见、以及它如何影响引用与可读性。</p>
+</div>
+<div class="kpis">
+<div class="kpi"><b>+0.31</b><span data-en>pp/1k tokens — fingerprint-vocabulary level jump, Physical Sciences (all 4 domains significant; flat for 7 prior years)</span><span data-zh>pp/1k 词元 —— 指纹词汇水平跳变（四学部全显著；此前七年平坦）</span></div>
+<div class="kpi"><b>16% ↑</b><span data-en>cumulative within-field similarity rise — a gradual 1.53%/yr current; NO 2023 step (p=0.90; also no step for centroid/NN once cell size is held fixed)</span><span data-zh>领域内相似度累计上升 —— 1.53%/年 的渐进暗流；2023 无阶跃（p=0.90；固定样本量后质心/最近邻同样无阶跃）</span></div>
+<div class="kpi"><b>+23%</b><span data-en>log-citations per +1pp fingerprint density — an inverted U turning over at ~2.5pp…</span><span data-zh>每 +1pp 指纹密度对数引用增益 —— 倒 U，约 2.5pp 见顶…</span></div>
+<div class="kpi red"><b>+0.28</b><span data-en>Flesch-Kincaid grade post-2023 — abstracts got measurably <em>harder to read</em></span><span data-zh>2023 后 FK 年级数 —— 摘要确实变得更难读</span></div>
+</div>
+<div class="cards">
+<div class="card"><span class="badge">PDF</span><h3 data-en>Paper (EN)</h3><h3 data-zh>论文（英文）</h3><p data-en><a href="paper.html">read online</a> · <a href="paper.pdf">PDF</a> — 9 sections, 31 Crossref-verified references, every number machine-injected.</p><p data-zh><a href="paper.html">在线阅读</a> · <a href="paper.pdf">下载 PDF</a> —— 9 节结构，31 条引用全部 Crossref 真验，数字全部机器注入。</p></div>
+<div class="card"><span class="badge">PDF</span><h3 data-en>论文（中文）</h3><h3 data-zh>Paper (中文)</h3><p data-zh><a href="paper_zh.html">在线阅读</a> · <a href="paper_zh.pdf">下载 PDF</a></p><p data-en><a href="paper_zh.html">Read online</a> · <a href="paper_zh.pdf">PDF</a> — full Chinese manuscript.</p></div>
+<div class="card"><span class="badge g">INTERACTIVE</span><h3 data-en>Dashboard</h3><h3 data-zh>交互仪表盘</h3><p data-en><a href="dashboard.html">191 word trends, 19-field homogenization grid, drill-down, word panel</a> — single file, zero dependency.</p><p data-zh><a href="dashboard.html">191 词趋势、19 领域同质化网格、层级钻取、词表面板</a> —— 单文件零依赖。</p></div>
+<div class="card"><span class="badge o">DATA+CODE</span><h3 data-en>Reproduce</h3><h3 data-zh>复现与验证</h3><p data-en><a href="reproduce.html">One command rebuilds everything; 8 machine gates re-verify the whole bundle in &lt;10 s — on your machine, without this repo.</a></p><p data-zh><a href="reproduce.html">一条命令重建全部；8 道机器门在你自己的电脑上 &lt;10 秒复验整包 —— 无需本仓库。</a></p></div>
+</div>
+<h2 data-en>Why anyone should care</h2><h2 data-zh>为什么值得你花十分钟</h2>
+<div data-en><p>Claims about AI rewriting science are mostly vibes and survey anecdotes. This is a <em>measurement</em> on public data with a falsifiable design: seven flat pre-break years in an event study, a domain-level jump tested against bootstrapped CIs, a homogenization null that survived a fixed-n control where the raw series had manufactured a fake break, and an honest disclosure that the cross-field gradient is carried by Computer Science. The sharpest usable result: fingerprint density <em>pays</em> in citations until roughly 2.5 hits per 1,000 tokens — then it doesn't. Readability declines monotonically past 2023.</p></div>
+<div data-zh><p>关于"AI 改写科研写作"的讨论大多停留在感觉和问卷。这是一份对公开数据的<em>测量</em>，设计上可证伪：事件研究里断点前七年平坦、学部级跳变有自助置信区间、同质化的"无断点"结论经过了固定样本量对照（原始序列的假断点正是被样本量制造出来的，论文里公开披露），并且诚实声明跨领域梯度主要由计算机科学承载。最锋利的可用结论：指纹密度换引用，到约每千词 2.5 次见顶；2023 后可读性单调恶化。</p></div>
+<h2 data-en>How to cite / 许可</h2><h2 data-zh>引用与许可</h2>
+<pre>@misc{llminflection2026,
+  author = {F. Zhang (kevindurant735rocket-creator)},
+  title  = {The LLM Inflection: Fingerprint-Vocabulary Diffusion, Stylistic
+             Homogenization, and Citation Outcomes in 120840 Scientific Abstracts (2015--2026)},
+  year   = {2026}, note = {preprint; data: Semantic Scholar open corpus}
+}</pre>
+<p data-en>Code MIT · text &amp; aggregates CC BY 4.0 · no personal data, no paid APIs. 10-minute deploy: <a href="DEPLOY.md">DEPLOY.md</a></p>
+<p data-zh>代码 MIT · 文本与聚合 CC BY 4.0 · 无个人数据、无付费 API。十分钟上线：见 <a href="DEPLOY.md">DEPLOY.md</a></p>
+</main><footer class="wrap"><p data-en>The LLM Inflection · F. Zhang (GitHub: kevindurant735rocket-creator) · preprint · code MIT / text &amp; aggregates CC BY 4.0</p>
+<p data-zh>LLM 拐点 · F. Zhang（GitHub: kevindurant735rocket-creator）· 预印本 · 代码 MIT / 文本与聚合数据 CC BY 4.0</p></footer><script>const b=document.body;if(localStorage.getItem('lang')==='zh')b.classList.add('zh');
+function sw(){const zh=b.classList.toggle('zh');localStorage.setItem('lang',zh?'zh':'en');
+document.getElementById('langbtn').textContent=zh?'EN | 中文':'中文 | EN'}
+document.getElementById('langbtn').onclick=sw;
+if(b.classList.contains('zh'))document.getElementById('langbtn').textContent='EN | 中文';</script></body></html>

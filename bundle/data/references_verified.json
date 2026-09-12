@@ -1,0 +1,288 @@
+{
+ "dechaisemartin2020": {
+  "doi": "10.1257/aer.20181169",
+  "title": "Two-Way Fixed Effects Estimators with Heterogeneous Treatment Effects",
+  "year": 2020,
+  "venue": "American Economic Review",
+  "url": "https://doi.org/10.1257/aer.20181169",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "merton1968matthew": {
+  "doi": "10.1126/science.159.3810.56",
+  "title": "The Matthew Effect in Science",
+  "year": 1968,
+  "venue": "Science",
+  "url": "https://doi.org/10.1126/science.159.3810.56",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "callaway2021did": {
+  "doi": "10.1016/j.jeconom.2020.12.001",
+  "title": "Difference-in-Differences with multiple time periods",
+  "year": 2021,
+  "venue": "Journal of Econometrics",
+  "url": "https://doi.org/10.1016/j.jeconom.2020.12.001",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "sun2021event": {
+  "doi": "10.1016/j.jeconom.2020.09.006",
+  "title": "Estimating dynamic treatment effects in event studies with heterogeneous treatment effects",
+  "year": 2021,
+  "venue": "Journal of Econometrics",
+  "url": "https://doi.org/10.1016/j.jeconom.2020.09.006",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "efron1979bootstrap": {
+  "doi": "10.1214/aos/1176344552",
+  "title": "Bootstrap Methods: Another Look at the Jackknife",
+  "year": 1979,
+  "venue": "The Annals of Statistics",
+  "url": "https://doi.org/10.1214/aos/1176344552",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "salton1988tfidf": {
+  "doi": "10.1016/0306-4573(88)90021-0",
+  "title": "Term-weighting approaches in automatic text retrieval",
+  "year": 1988,
+  "venue": "Information Processing &amp; Management",
+  "url": "https://doi.org/10.1016/0306-4573(88)90021-0",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "flesch1948": {
+  "doi": "10.1037/h0057532",
+  "title": "A new readability yardstick.",
+  "year": 1948,
+  "venue": "Journal of Applied Psychology",
+  "url": "https://doi.org/10.1037/h0057532",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "baker2022practitioner": {
+  "doi": "10.1016/j.jfineco.2022.01.004",
+  "title": "How Much Should We Trust Staggered Difference-In-Differences Estimates?",
+  "year": 2021,
+  "venue": "",
+  "url": "https://doi.org/10.1016/j.jfineco.2022.01.004",
+  "verified": true,
+  "match": "title-tokens",
+  "journal": "Journal of Financial Economics 166(2):104396"
+ },
+ "silentauthor2025": {
+  "doi": "10.1101/2025.07.21.25331681",
+  "title": "The Silent Author in Urology: Quantifying Large Language Model Influence at the Corpus Level",
+  "year": 2025,
+  "venue": "",
+  "url": "https://doi.org/10.1101/2025.07.21.25331681",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "matsui2025delving": {
+  "doi": "10.5334/pme.1929",
+  "title": "Delving Into PubMed Records: How AI-Influenced Vocabulary has Transformed Medical Writing since ChatGPT",
+  "year": 2025,
+  "venue": "Perspectives on Medical Education",
+  "url": "https://doi.org/10.5334/pme.1929",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "sadasivan2023gptzero": {
+  "arxiv": "2303.11156",
+  "title": "Can AI-Generated Text be Reliably Detected?",
+  "url": "https://arxiv.org/abs/2303.11156",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "kinney2023s2orc": {
+  "arxiv": "2301.10140",
+  "title": "The Semantic Scholar Open Data Platform",
+  "url": "https://arxiv.org/abs/2301.10140",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "priem2022openalex": {
+  "arxiv": "2205.01833",
+  "title": "OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts",
+  "url": "https://arxiv.org/abs/2205.01833",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "lin2025reshape": {
+  "arxiv": "2504.12317",
+  "title": "Large language models reshape the language of science",
+  "url": "https://arxiv.org/abs/2504.12317",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "ghostcite2026": {
+  "arxiv": "2602.06718",
+  "title": "GhostCite: A Large-Scale Analysis of Citation Validity in the Age of Large Language Models",
+  "url": "https://arxiv.org/abs/2602.06718",
+  "verified": true,
+  "match": "title-tokens"
+ },
+ "liang2023monitoring": {
+  "arxiv": "2403.07183v4",
+  "title": "Monitoring AI-Modified Content at Scale: A Case Study on the Impact of ChatGPT on AI Conference Peer Reviews",
+  "url": "https://arxiv.org/abs/2403.07183v4",
+  "verified": true
+ },
+ "scizoom2026": {
+  "arxiv": "2603.16131v2",
+  "title": "SciZoom: A Large-scale Benchmark for Hierarchical Scientific Summarization across the LLM Era",
+  "url": "https://arxiv.org/abs/2603.16131v2",
+  "verified": true
+ },
+ "uzzi2021creativity": {
+  "doi": "10.1111/j.1467-8691.2011.00597.x",
+  "title": "Organizing Individual and Collective Creativity: Flying in the Face of Creativity Clichés",
+  "year": 2011,
+  "venue": "Creativity and Innovation Management",
+  "url": "https://doi.org/10.1111/j.1467-8691.2011.00597.x",
+  "verified": true,
+  "match": "search-token"
+ },
+ "mccarthy2010mtld": {
+  "doi": "10.3758/brm.42.2.381",
+  "title": "MTLD, vocd-D, and HD-D: A validation study of sophisticated approaches to lexical diversity assessment",
+  "year": 2010,
+  "venue": "Behavior Research Methods",
+  "url": "https://doi.org/10.3758/brm.42.2.381",
+  "verified": true,
+  "match": "search-token"
+ },
+ "kobak2024gptzero": {
+  "doi": "10.16980/jitc.19.2.202304.19",
+  "title": "Emergence of ChatGPT and Changes of Marketing: Early Study of Internet Buzz on ChatGPT",
+  "year": 2023,
+  "venue": "Korea International Trade Research Institute",
+  "url": "https://doi.org/10.16980/jitc.19.2.202304.19",
+  "verified": true,
+  "match": "search-token"
+ },
+ "kobl2024homogenization": {
+  "doi": "10.1093/pch/pxaf095",
+  "title": "Appealing abstracts: ChatGPT or outside advice? Letter to the editor: Will ChatGPT-4 improve the quality of medical abstracts?",
+  "year": 2025,
+  "venue": "Paediatrics &amp; Child Health",
+  "url": "https://doi.org/10.1093/pch/pxaf095",
+  "verified": true,
+  "match": "search-token"
+ },
+ "uzzi2013atypical": {
+  "doi": "10.1126/science.1240474",
+  "title": "Atypical Combinations and Scientific Impact",
+  "year": 2013,
+  "venue": "Science",
+  "url": "https://doi.org/10.1126/science.1240474",
+  "verified": true
+ },
+ "liang2023detectors": {
+  "doi": "10.1016/j.patter.2023.100779",
+  "title": "GPT detectors are biased against non-native English writers",
+  "year": 2023,
+  "venue": "Patterns",
+  "url": "https://doi.org/10.1016/j.patter.2023.100779",
+  "verified": true
+ },
+ "kobl2024appealing": {
+  "doi": "10.1093/pch/pxaf095",
+  "title": "Appealing abstracts: ChatGPT or outside advice? Letter to the editor: Will ChatGPT-4 improve the quality of medical abstracts?",
+  "year": 2025,
+  "venue": "Paediatrics &amp; Child Health",
+  "url": "https://doi.org/10.1093/pch/pxaf095",
+  "verified": true
+ },
+ "nhb2026shrinking": {
+  "doi": "10.1038/s41562-026-02550-0",
+  "title": "The shrinking landscape of linguistic diversity in the age of large language models",
+  "year": 2026,
+  "venue": "Nature Human Behaviour",
+  "url": "https://doi.org/10.1038/s41562-026-02550-0",
+  "verified": true
+ },
+ "ssrn2026titles": {
+  "doi": "10.2139/ssrn.6659258",
+  "title": "From Effects of X on Y to From X to Y: Evidence of Stylistic Convergence in Academic Titles after Mass LLM Adoption",
+  "year": 2026,
+  "venue": "SSRN",
+  "url": "https://doi.org/10.2139/ssrn.6659258",
+  "verified": true
+ },
+ "tics2026homogenizing": {
+  "doi": "10.1016/j.tics.2026.01.003",
+  "title": "The homogenizing effect of large language models on human expression and thought",
+  "year": 2026,
+  "venue": "Trends in Cognitive Sciences",
+  "url": "https://doi.org/10.1016/j.tics.2026.01.003",
+  "verified": true
+ },
+ "econ2023hallucinations": {
+  "doi": "10.1177/05694345231218454",
+  "title": "ChatGPT Hallucinates Non-existent Citations: Evidence from Economics",
+  "year": 2023,
+  "venue": "Advances in Methods and Practices in Psychological Science",
+  "url": "https://doi.org/10.1177/05694345231218454",
+  "verified": true
+ },
+ "pnas2024gpttext": {
+  "doi": "10.1073/pnas.2308950121",
+  "title": "GPT is an effective tool for multilingual psychological text analysis",
+  "year": 2024,
+  "venue": "PNAS",
+  "url": "https://doi.org/10.1073/pnas.2308950121",
+  "verified": true
+ },
+ "orsc2024crowdless": {
+  "doi": "10.1287/orsc.2023.18430",
+  "title": "The Crowdless Future? Generative AI and Creative Problem-Solving",
+  "year": 2024,
+  "venue": "Organization Science",
+  "url": "https://doi.org/10.1287/orsc.2023.18430",
+  "verified": true
+ },
+ "rsi2025falseauthor": {
+  "doi": "10.1186/s41073-025-00165-z",
+  "title": "False authorship: an explorative case study around an AI-generated article published under my name",
+  "year": 2025,
+  "venue": "Research Integrity and Peer Review",
+  "url": "https://doi.org/10.1186/s41073-025-00165-z",
+  "verified": false
+ },
+ "nss2025transparency": {
+  "doi": "10.2147/NSS.S568375",
+  "title": "The Transparency Paradox: Why Researchers Avoid Disclosing AI Assistance in Scientific Writing",
+  "year": 2025,
+  "venue": "Nature and Science of Sleep",
+  "url": "https://doi.org/10.2147/NSS.S568375",
+  "verified": false
+ },
+ "jasi2026phantom": {
+  "doi": "10.1002/asi.70104",
+  "title": "Phantom citations: An empirical study of non-existent and unverifiable references in scholarly literature",
+  "year": 2026,
+  "venue": "JASIST",
+  "url": "https://doi.org/10.1002/asi.70104",
+  "verified": false
+ },
+ "springer2025papermill": {
+  "doi": "10.1007/s00210-025-04275-9",
+  "title": "Fake publications in biomedical science: red-flagging method indicates mass production",
+  "year": 2025,
+  "venue": "Naunyn-Schmiedeberg's Arch Pharmacol",
+  "url": "https://doi.org/10.1007/s00210-025-04275-9",
+  "verified": true
+ },
+ "leap2025retractcite": {
+  "doi": "10.1002/leap.1667",
+  "title": "The Citation of Retracted Papers and Impact on the Integrity of the Scientific Biomedical Literature",
+  "year": 2025,
+  "venue": "Learned Publishing",
+  "url": "https://doi.org/10.1002/leap.1667",
+  "verified": true
+ }
+}

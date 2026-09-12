@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kevindurant735rocket-creator.github.io/llm-inflection/sitemap.xml

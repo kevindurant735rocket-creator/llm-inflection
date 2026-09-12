@@ -1,0 +1,26 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insights · 洞见</title><meta name="description" content="LLM Inflection — 基于 12 万篇科学摘要的可复现实证研究。A reproducible study of how LLM writing tools changed the language of science.">
+<link rel="stylesheet" href="style.css"><link rel="canonical" href="https://kevindurant735rocket-creator.github.io/llm-inflection/insights"></head>
+<body><header class="top"><div class="wrap"><span class="brand">LLM Inflection</span><nav><a href="index.html">首页/Home</a><a href="paper.html">论文/Paper</a><a href="figures.html">图表/Figures</a><a href="insights.html" style="font-weight:700;text-decoration:underline">洞见/Insights</a><a href="dashboard.html">仪表盘/Dashboard</a><a href="reproduce.html">复现/Reproduce</a></nav>
+<button class="langbtn" id="langbtn">中文 | EN</button></div></header><main class="wrap">
+
+<h1 data-en>Four findings — and one methodological landmine</h1><h1 data-zh>四个发现，和一颗方法学地雷</h1>
+<h2 data-en>1 · The break is real, narrow and universal (level)</h2><h2 data-zh>1 · 断点真实、狭窄而普适（水平）</h2>
+<p data-en>Fingerprint vocabulary jumped in <b>all four domains</b> after 2022-11 (Physical +0.309 CI[.298,.320]; Life +0.270; Social +0.253; Arts +0.222) after seven statistically flat years. The <em>cross-field gradient</em> around the jump, however, is carried mainly by Computer Science — removing CS &amp; Medicine the gradient dies (−0.017, n.s.) while every domain keeps its level break.</p>
+<p data-zh>2022-11 后指纹词汇在<b>全部四个学部</b>跳变（此前七年统计平坦）。但"谁跳得更多"的跨领域梯度主要由计算机科学扛起——剔除 CS 与医学后梯度消失，各学部水平跳变依旧。这是本包刻意保守的地方：<b>普适的是"跳了"，不是"跳的幅度排序"</b>。</p>
+<h2 data-en>2 · Homogenization is a slow current — and the raw data lied about it</h2><h2 data-zh>2 · 同质化是慢流 —— 而且原始数据一度"撒谎"</h2>
+<p data-en>Pairwise within-field similarity rises 1.53%/yr with <b>no post-2023 step</b> (p=0.90). The landmine: raw centroid and nearest-neighbor series appear to break — because cells grew from ~370 to 900 papers and max-type statistics mechanically rise with n. At a fixed n=300 subsample both breaks vanish (p=0.40 / 0.89). <b>We shipped the fixed-n columns, the regression and the disclosure inside the paper.</b> If your corpus study's samples expand over time, your "LLM-era convergence" may be this artifact.</p>
+<p data-zh>两两相似度每年上升约 1.53%（基数的），2023 后<b>无超趋势阶跃</b>（p=0.90）。地雷在于：原始的质心/最近邻序列看似有断点——只因单元格样本从约 370 篇扩到 900 篇，max 型统计量随 n 机械增大。固定 n=300 后断点全部消失。我们把固定 n 数据列、回归和披露原样留在论文与数据包里。<b>样本量随年份扩张的语料研究，"LLM 时代趋同"很可能就是这个伪影。</b></p>
+<h2 data-en>3 · It pays — until ~2.5 per 1,000 — and it costs readability</h2><h2 data-zh>3 · 引用有回报，约 2.5/千词见顶；代价是可读性</h2>
+<p data-en>+0.228 log-citations per +1pp fingerprint density (CI[0.18,0.27]), with a significant negative quadratic (−0.045) turning over near 2.5 pp — a "sweet spot", not a slope. Meanwhile FK grade rises +0.28 post-2023 with the field fixed. Using more of the fingerprint is rewarded and makes abstracts harder to parse — both at once.</p>
+<p data-zh>每 +1pp 指纹密度 +0.228 对数引用（显著负平方项，拐点约 2.5 pp/1k 词元）——是"甜点位"不是"越多越好"。同时字段固定后 FK 年级数 2023 后 +0.28。引用收益与阅读代价同时存在。</p>
+<h2 data-en>4 · The lexicon was derived, not copied</h2><h2 data-zh>4 · 词表是推导出来的，不是抄来的</h2>
+<p data-en>740 candidate terms come from machine-rewrite-vs-human paired statistics (dual-source, style-gated, paired-lift ≥1.5 → 65-term core); nothing is a blog list. The full table ships in data/ with per-term lift.</p>
+<p data-zh>740 个候选词来自"机器改写 vs 人写"的配对统计（双源 ∧ 文风词 ∧ 配对提升≥1.5 → 65 词核心表），全部定义可复核，逐词提升度在 data/lexicon.json。</p>
+</main><footer class="wrap"><p data-en>The LLM Inflection · F. Zhang (GitHub: kevindurant735rocket-creator) · preprint · code MIT / text &amp; aggregates CC BY 4.0</p>
+<p data-zh>LLM 拐点 · F. Zhang（GitHub: kevindurant735rocket-creator）· 预印本 · 代码 MIT / 文本与聚合数据 CC BY 4.0</p></footer><script>const b=document.body;if(localStorage.getItem('lang')==='zh')b.classList.add('zh');
+function sw(){const zh=b.classList.toggle('zh');localStorage.setItem('lang',zh?'zh':'en');
+document.getElementById('langbtn').textContent=zh?'EN | 中文':'中文 | EN'}
+document.getElementById('langbtn').onclick=sw;
+if(b.classList.contains('zh'))document.getElementById('langbtn').textContent='EN | 中文';</script></body></html>
