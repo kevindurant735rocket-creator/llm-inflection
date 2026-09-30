@@ -1,5 +1,8 @@
 # The LLM Inflection
 
+**Live site: <https://kevindurant735rocket-creator.github.io/llm-inflection/>**
+
+
 **An evidence-based test of whether AI is homogenizing how science writes.**
 
 120,840 scientific abstracts, 19 fields, 2015–2026. Claims that "AI is flattening
